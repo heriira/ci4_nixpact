@@ -51,7 +51,7 @@ class Database extends Config
      */
     public array $tests = [
         'DSN'         => '',
-        'hostname'    => '127.0.0.1',
+        'hostname'    => '0.0.0.0',
         'username'    => '',
         'password'    => '',
         'database'    => ':memory:',
