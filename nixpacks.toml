@@ -1,0 +1,8 @@
+[build]
+builder = "composer"
+
+[build.deploy]
+target = "railway"
+
+[build.deploy.railway]
+provider = "railway"
